@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#container-general{
+    max-width: 1000px;
+    margin: auto;
+}
+/* nav-bar */
+#container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    background-color: blue;
+
+}
+
+#nav-elements ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    list-style-type:none;
+    height: 50px;
+}
+
+#nav-elements ul li{
+    width: 40px;
+    height: 20px;
+    background-color: brown;
+}
+
+
+#container-nav #logo{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+
+}
+
+
+#container-nav #nav-elements{
+    border: 1px solid black;
+    width: 350px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+
+
+#container-nav #login{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+/* /nav-bar */
