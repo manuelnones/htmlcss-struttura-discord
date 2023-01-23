@@ -4,21 +4,11 @@
     box-sizing: border-box;
 }
 
+/* header */
 #container-1{
     max-width: 1000px;
     margin: auto;
 }
-
-#container-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1000px;
-    height: 500px;
-    margin: auto;
-    background-color: blue;
-}
-/* header */
 
 /* nav-bar */
 #container-nav{
@@ -74,6 +64,16 @@
 }
 /* /nav-bar */
 
+#container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-color: blue;
+}
+
 #container-heading{
     display: flex;
     justify-content: center;
@@ -81,10 +81,9 @@
     flex-wrap: wrap;
     width: 60%;
     height: 300px;
-    background-color: blueviolet;
 }
 
-#container-heading #title{
+#container-heading .title{
     width: 70%;
     height: 50px;
     background-color: aliceblue;
@@ -118,3 +117,84 @@
     margin-left: 10px; 
 }
 /* /header */
+
+/* main */
+/* section-1 */
+
+#container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#container-3 #study-group-image{
+    width: 40%;
+    height: 60%;
+    background-color: brown;
+}
+
+#container-3 #study-group-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+}
+
+
+#container-3 #study-group-text .subtitle1{
+    width: 90%;
+    height: 60%;
+    background-color: blueviolet;
+}
+
+#container-3 #study-group-text .text1{
+    width: 90%;
+    height: 30%;
+    background-color: rgb(43, 125, 226);
+}
+/* /section-1 */
+
+/* section-2 */
+
+#container-4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#container-4 #friends-voice-image{
+    width: 40%;
+    height: 60%;
+    background-color: brown;
+}
+
+#container-4 #friends-voice-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+}
+
+
+#container-4 #friends-voice-text .subtitle2{
+    width: 90%;
+    height: 30%;
+    background-color: blueviolet;
+}
+
+#container-4 #friends-voice-text .text2{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(43, 125, 226);
+}
