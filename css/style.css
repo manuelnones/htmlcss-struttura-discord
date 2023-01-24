@@ -55,7 +55,7 @@
 }
 
 
-#container-nav #login-botton{
+#container-nav #login-button{
     border: 1px solid black;
     width: 100px;
     height: 50px;
@@ -95,14 +95,14 @@
     background-color: rgb(110, 137, 160);
 }
 
-#container-heading #download-bottons{
+#container-heading #download-buttons{
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100px;
 }
 
-#container-heading #download-bottons #botton-1{
+#container-heading #download-buttons #button-1{
     background-color: aquamarine;
     height: 50%;
     width: 30%;
@@ -110,7 +110,7 @@
 
 }
 
-#container-heading #download-bottons #botton-2{
+#container-heading #download-buttons #button-2{
     background-color: black;
     height: 50%;
     width: 40%;
@@ -239,3 +239,52 @@
     background-color: rgb(43, 125, 226);
 }
 /* /section-3 */
+
+/* section-4 */
+#container-6{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#container-6 .title{
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    background-color: red;
+}
+
+#container-6 .text{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 50px;
+    background-color: orangered;
+}
+
+#container-6 #video-call-image{
+    margin: auto;
+    margin-top: 60px;
+    width: 90%;
+    height: 300px;
+    background-color: darkorange;
+
+}
+
+#container-6 .title-2{
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 40px;
+    background-color: red;
+
+}
+
+#container-6 #button-download-for-mac{
+    margin: auto;
+    margin-top: 40px;
+    width: 20%;
+    height: 40px;
+    background-color: lightblue;
+
+}
+/* /section-4 */
